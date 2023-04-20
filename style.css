@@ -49,6 +49,7 @@ footer{
 }
 
 hr{
+    margin-top: 10px;
     margin-bottom: 10px;
     border-color: black;
 }
@@ -122,10 +123,10 @@ a:hover{
 @media (max-width:600px){
     header{
         flex-direction: column;
-        align-self: left;
+        text-align: center;
     }
     nav{
-        padding: 10px 0px;
+        padding: 20px;
     }
     img{
         max-height: 260px;
@@ -138,6 +139,7 @@ a:hover{
         padding: 0px;
     }
     footer{
-        padding-left: 15px;
+        padding-left: 10px;
+        padding-bottom: 5px;
     }
 }
